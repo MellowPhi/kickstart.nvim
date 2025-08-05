@@ -1,5 +1,5 @@
 # kickstart.nvim
-
+this is a test to check if i can sync my forked repo
 ## Introduction
 
 A starting point for Neovim that is:
