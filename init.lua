@@ -1014,7 +1014,10 @@ require('lazy').setup({
 })
 
 -- Custom lua config
-pcall(require, 'custom.neotree_transparency')
+-- pcall(require, 'custom.neotree_transparency')
+-- pcall(require, 'custom.indent')
+require 'custom.neotree_transparency'
+require 'custom.indent'
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
